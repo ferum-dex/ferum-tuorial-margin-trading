@@ -1,0 +1,16 @@
+[package]
+name = 'perimeter'
+version = '1.0.0'
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[dependencies.ferum]
+git = 'https://github.com/ferum/ferum.git'
+rev = 'devnet'
+subdir = 'contract'
+
+[addresses]
+perimeter = "0xcb00315f1cf80267323c1d75148aae615cbd37746d6513debd21a0592a42e390"
